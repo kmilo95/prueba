@@ -5,7 +5,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Crud extends CI_Controller {
 
     public function __construct() {
-        // $this->load->model("CrudModel");
+        parent::__construct();
+         $this->load->model("CrudModel");
     }
 
     public function index() {
@@ -13,7 +14,7 @@ class Crud extends CI_Controller {
     }
 
     public function getData() {
-        echo $this->Datatables
+        echo $this->datatables
                 ->select("id,documento,nombres,correo,telefono,ciudad,lugar,fecha")
                 ->from("informacion")
                 ->generate();
