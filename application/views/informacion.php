@@ -68,7 +68,7 @@
         <div class="col-lg-3">
         </div>
         <div class="col-lg-3">
-            <button type="button" class="btn btn-info" data-dismiss="modal">Participar</button>
+            <button type="button" class="btn btn-info guardar" data-dismiss="modal">Participar</button>
         </div>
         <div class="col-lg-3">
             <label><input type="radio" name="optradio"> Acepto Terminos y Condiciones</label>
