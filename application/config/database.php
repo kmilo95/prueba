@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 'eu-cdbr-azure-west-a.cloudapp.netl',
+	'username' => 'b8f80a17f4bd2bl',
+	'password' => '2487aeee',
+	'database' => 'acsm_8885e074d2edaa7l',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
